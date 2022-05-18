@@ -1,6 +1,6 @@
 
 /// Represents the type of dice that can be rolled
-#[derive(Clone, Debug, PartialEq, Eq, Hash)]
+#[derive(Clone, Debug, PartialEq, Eq, Hash, Copy)]
 pub enum Dice {
     /// The Boost Dice is a blue d6.
     Boost,
